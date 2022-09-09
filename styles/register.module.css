@@ -1,0 +1,90 @@
+.section {
+   background-color: var(--mainColor);
+   border: 1px solid var(--mainColor);
+   height: 1020px;
+   width: 375px;
+   overflow: hidden;
+   box-shadow: 0px 0px 5px 0px var(--secondColor);
+}
+
+.right {
+   text-align: center;
+}
+
+
+.section span {
+   background-color: var(--mainColor);
+}
+
+.section input {
+   border: 0 !important;
+   background-color: var(--mainColor) !important;
+   width: 300px !important;
+   margin: 0;
+}
+
+.section span:hover,
+.section span:focus {
+   box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11) !important;
+   border: 3px solid var(--secondColor) !important;
+}
+
+.button {
+   border: 1;
+   border-radius: 35px;
+   background-color: var(--secondColor);
+   color: var(--mainColor);
+   font-family: 'Inter', sans-serif;
+   height: 50px;
+   border-color: var(--secondColor);
+}
+
+.button:hover {
+   background-color: var(--secondColor);
+   color: var(--secondColor);
+   border-color: var(--secondColor);
+}
+
+.clicked:hover {
+   color: var(--secondColor);
+   border-color: var(--secondColor);
+}
+
+.option {
+   text-align: center;
+   color: var(--color-5);
+   font-size: 16px;
+   font-weight: 400;
+   margin-top: 15px;
+}
+
+.option a {
+   color: var(--secondColor);
+   text-decoration: none;
+}
+
+.option a:hover {
+   text-decoration: underline;
+}
+
+@media screen and (min-width: 411px) {
+   .section {
+      width: 710px;
+   }
+
+   .right {
+      text-align: center;
+   }
+}
+
+@media screen and (min-width: 720px) {
+   .section {
+      height: 100vh;
+      width: 1363px;
+   }
+
+   .right {
+      margin-right: 10px;
+      padding: 1rem 1rem;
+   }
+}

@@ -1,24 +1,48 @@
-html,
+@import url('bootstrap/dist/css/bootstrap.min.css');
+@import '@fontsource/poppins';
+@import '@fontsource/inter';
+
+:root {
+  --mainColor: #FFFFFF;
+  --secondColor: #273AC7;
+  --color-1: #F9F9F9;
+  --color-2: #D4D4D4;
+  --color-3: #9B9B9B;
+  --color-4: #222222;
+  --color-5: #DB3022;
+  --color-6: #2AA952;
+  --shadow-black-100: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --shadow-black-300: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.heading {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.subheading {
+  font-weight: 300;
 }
 
 * {
-  box-sizing: border-box;
+  margin: 0;
+    padding: 0;
+    outline: none !important;
+    text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
