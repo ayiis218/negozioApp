@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Input from '../../components/atoms/InputText';
+import Input from '../../components/atoms/InputText/auth';
 import Button from '../../components/atoms/Button';
 import logo from '../../public/icons/logo.png';
 
@@ -45,7 +45,7 @@ const FormRegister = () => {
                               <div className="col-6 col-lg-6 d-flex justify-content-start">
                                  <button
                                     onClick={() => setCurrentShow(1)}
-                                    className="btn w-100 rounded text-gray"
+                                    className="btn w-100 border rounded text-gray"
                                  >
                                     Seller
                                  </button>
@@ -119,7 +119,7 @@ const FormRegister = () => {
                               <div className="col-6 col-lg-6 d-flex justify-content-end">
                                  <button
                                     onClick={() => setCurrentShow(0)}
-                                    className="btn w-100 rounded text-gray"
+                                    className="btn w-100 border rounded text-gray"
                                  >
                                     Customer
                                  </button>
@@ -158,7 +158,7 @@ const FormRegister = () => {
                                     <Input
                                        type="text"
                                        className="form-control"
-                                       placeholder="E-Mail"
+                                       placeholder="Email"
                                        style={{ color: 'var(--color-3)' }}
                                        // onChange={(e) => {
                                        //    setEmail(e.target.value);
@@ -206,7 +206,7 @@ const FormRegister = () => {
                                     <Input
                                        type="password"
                                        className="form-control"
-                                       placeholder="New Password"
+                                       placeholder="Password"
                                        style={{ color: 'var(--color-3)' }}
                                        // onChange={(e) => {
                                        //    setRePass(e.target.value);
@@ -218,7 +218,7 @@ const FormRegister = () => {
                               <div className="row">
                                  <div className="col d-flex justify-content-center">
                                     <Button
-                                       className={`btn w-100 mt-3 ${style.button}`}
+                                       className={`btn border w-100 mt-3 ${style.button}`}
                                        type="submit"
                                        disabled={loading}
                                     >
@@ -233,7 +233,7 @@ const FormRegister = () => {
                      <div className="w-100 d-flex flex-column">
                         <div className="w-100 d-flex justify-content-center align-items-center">
                            <div className={style.option}>
-                              Already have a account?
+                              Already have a account?{' '}
                               <Link href="/auth/login">Log in</Link>
                            </div>
                         </div>

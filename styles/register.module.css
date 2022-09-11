@@ -30,24 +30,23 @@
 }
 
 .button {
-   border: 1;
    border-radius: 35px;
    background-color: var(--secondColor);
    color: var(--mainColor);
    font-family: 'Inter', sans-serif;
    height: 50px;
-   border-color: var(--secondColor);
+   border: 1px solid var(--secondColor);
 }
 
 .button:hover {
    background-color: var(--secondColor);
    color: var(--secondColor);
-   border-color: var(--secondColor);
+   border: 1px solid var(--secondColor) !important;
 }
 
 .clicked:hover {
    color: var(--secondColor);
-   border-color: var(--secondColor);
+   border: 1px solid var(--secondColor) !important;
 }
 
 .option {
