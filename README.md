@@ -1,35 +1,97 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<!-- PROJECT LOGO -->
 
-First, run the development server:
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a4d506d5-577f-470f-889d-ce0ee110ee6f/deploy-status)](https://app.netlify.com/sites/celadon-maamoul-b0eb5a/deploys)
+<div align="center">
 
-```bash
-npm run dev
-# or
-yarn dev
+<img src="https://i.postimg.cc/yx8pCmKW/icon.png" align="center" width="250" height="auto" />
+  <h1>Ricette dellApp</h1>
+  
+  [![license](https://img.shields.io/github/license/dec0dOS/amazing-github-template.svg?style=flat-square)](LICENSE)
+  </br>
+   <a href="https://negozioapp.netlify.app/">View Demo</a>
+  <h2>About The Project</h2>
+  Riette mobile is Ricette dellApp mobile version. Ricette mobile an application website for finding a recipe tutorial. In addition, users can also access the application website to share tutorial recipes by registering as a user in the application. This web application was developed using Next js  
+</div>
+
+## Built With
+This app was built with some technologies below:
+- [Node JS](https://nodejs.org/en/)
+- [Next JS](https://nextjs.org/)
+- [React JS](https://reactjs.com/)
+- [React-icons](https://react-icons.github.io/react-icons/)
+- [Boostrap](https://getbootstrap.com/)
+- [Swiper](https://swiperjs.com/react)
+
+## Installation
+
+- Clone my repositories
+```
+git clone https://github.com/ayiis218/negozioApp.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Go to
+```
+cd negozioApp
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Install Module
+```
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## ENV Example
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Screenshoots
 
-To learn more about Next.js, take a look at the following resources:
+<p align="center" display=flex>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<table>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<tr>
+<td><h4 style="margin-buttom:8px">Register</h4></td>
+<td><h4 style="margin-buttom:8px">Login</h4></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><h4 style="margin-buttom:8px">Home</h4></td>
+<td><h4 style="margin-buttom:8px">popular</h4></td>
+<td><h4 style="margin-buttom:8px">Search</h4></td>
+<td><h4 style="margin-buttom:8px">Detail Recipe</h4></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><h4 style="margin-buttom:8px">Profile</h4></td>
+<td colspan="3"><h4 style="margin-buttom:8px">Edit Profile</h4></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><h4 style="margin-buttom:8px">My Recipe</h4></td>
+<td><h4 style="margin-buttom:8px">Create Recipe</h4></td>
+<td><h4 style="margin-buttom:8px">Edite Recipe</h4></td>
+<td><h4 style="margin-buttom:8px">Comment Recipe</h4></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+email : ayiis.218@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+project Link: https://github.com/ayiis218/negozioApp.git
+
+## License
+Distributed under the [MIT](/LICENSE) License.
+<p align="right">(<a href="#top">back to top</a>)</p>
