@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<img src="https://i.postimg.cc/yx8pCmKW/icon.png" align="center" width="250" height="auto" />
+<img src="https://i.postimg.cc/KzprWNzq/shopping-bag-1.png" align="center" width="250" height="auto" />
   <h1>Negozio</h1>
   
   [![license](https://img.shields.io/github/license/dec0dOS/amazing-github-template.svg?style=flat-square)](LICENSE)
