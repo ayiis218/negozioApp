@@ -4,13 +4,12 @@
 <div align="center">
 
 <img src="https://i.postimg.cc/yx8pCmKW/icon.png" align="center" width="250" height="auto" />
-  <h1>Ricette dellApp</h1>
+  <h1>Negozio</h1>
   
   [![license](https://img.shields.io/github/license/dec0dOS/amazing-github-template.svg?style=flat-square)](LICENSE)
   </br>
    <a href="https://negozioapp.netlify.app/">View Demo</a>
   <h2>About The Project</h2>
-  Riette mobile is Ricette dellApp mobile version. Ricette mobile an application website for finding a recipe tutorial. In addition, users can also access the application website to share tutorial recipes by registering as a user in the application. This web application was developed using Next js  
 </div>
 
 ## Built With
