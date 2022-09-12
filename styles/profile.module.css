@@ -7,16 +7,18 @@
 }
 
 .right {
+   border: 0px !important;
+      border-radius: 15px;
    background-color: var(--mainColor);
-   height: 85vh;
-
+   height: 75vh;
 }
 
 .image {
+   margin-left: 140px;
    display: flex;
-   justify-content: center;
-   margin-top: 50px;
+   margin-top: 30px;
 }
+
 .left {
    background-color: var(--mainColor);
    height: 100vh;
@@ -33,10 +35,9 @@
    margin-left: 20px;
 }
 
-.header h5 {
+.header h4 {
    padding-top: 9px;
    font-weight: 600;
-   font-size: 18px;
    color: var(--text-black);
 }
 
@@ -54,8 +55,7 @@
 
 .section span:hover,
 .section span:focus {
-   box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11) !important;
-   border: 3px solid var(--secondColor) !important;
+   cursor: pointer;
 }
 
 .select {
@@ -73,59 +73,88 @@
    color: var(--mainColor);
    border: 1px solid var(--secondColor) !important;
 }
+
 .button {
    border-radius: 35px;
    background-color: var(--secondColor);
    color: var(--mainColor);
    font-family: 'Inter', sans-serif;
    width: 100px;
-      height: 36px;
+   height: 36px;
       border: 1px solid var(--secondColor);
 }
 
 .button:hover {
    background-color: var(--secondColor);
    color: var(--mainColor);
-      border: 1px solid var(--secondColor) !important;
+   border: 1px solid var(--secondColor) !important;
 }
 
 .clicked:hover {
    color: var(--secondColor);
    border: 1px solid var(--secondColor) !important;
-   }
-   
-   .radio {
-      margin-left: 35px !important;
-      display: flex;
-      position: relative;
-   }
-   
-   .radio label {
-      display: flex;
-      margin-left: 10px;
-   
-   }
-   
-   .radio input[type="radio"] {
-      display: none;
-   }
-   
-   .radio input[type="radio"]+label:before {
-      content: "";
-      display: inline-block;
-      width: 18px;
-      height: 18px;
-      padding: 2px;
-      background-clip: content-box;
-      border: 1px solid var(--color-4);
-      background-color: none;
-      border-radius: 50%;
-   }
-   
-   .radio input[type="radio"]:checked+label:before {
-      background-color: var(--color-4);
 }
 
+.radio {
+   margin-left: 35px !important;
+   display: flex;
+   position: relative;
+}
+
+.radio label {
+   display: flex;
+   margin-left: 10px;
+
+}
+
+.radio input[type="radio"] {
+   display: none;
+}
+
+.radio input[type="radio"]+label:before {
+   content: "";
+   display: inline-block;
+   width: 18px;
+   height: 18px;
+   padding: 2px;
+   background-clip: content-box;
+   border: 1px solid var(--color-4);
+   background-color: none;
+   border-radius: 50%;
+}
+
+.radio input[type="radio"]:checked+label:before {
+   background-color: var(--color-4);
+}
+
+.listMenu {
+   width: 50%;
+   position: absolute;
+   right: 0;
+}
+
+.textCollapse {
+   margin-left: 2.5rem;
+}
+
+
+.action {
+   background-color: var(--color-6);
+   width: 100%;
+   overflow-x: hidden;
+   height: 100vh;
+   padding-left: 38%;
+   padding-top: 7%;
+}
+
+.textLink {
+   font-weight: 500;
+   color: var(--color-3);
+}
+
+.textLink:hover {
+   color: var(--color-4);
+}
 @media screen and (min-width: 411px) {
    .section {
       width: 710px;
@@ -137,7 +166,11 @@
    .section {
       height: 100vh;
       width: 1363px;
-      overflow-y: visible;
+      overflow: hidden;
+      }
+      
+      .profile {
+         margin-top: 85px;
    }
 
    .right {

@@ -1,11 +1,22 @@
 .section {
   background-color: var(--mainColor);
   border: 1px solid var(--mainColor);
-  height: 1020px;
+  height: 2620px;
   width: 375px;
   box-shadow: 0px 0px 5px 0px var(--secondColor);
 }
 
+.content {
+  margin-top: 200px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.popular {
+  margin-top: -50px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
 @media screen and (min-width: 411px) {
   .section {
     width: 710px;
@@ -15,9 +26,20 @@
 
 @media screen and (min-width: 720px) {
   .section {
-    height: 100vh;
+    height: 400vh;
     width: 1363px;
     overflow-y: visible;
   }
 
+    .content {
+      margin-top: 200px;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+  
+    .popular {
+      margin-top: -50px;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
 }

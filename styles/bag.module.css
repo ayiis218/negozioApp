@@ -132,7 +132,12 @@
       overflow-y: visible;
    }
 
+      .header h4 {
+         margin-left: 70px;
+         margin-bottom: -10px;
+      }
    .content {
+      margin-top: 70px;
       background-color: var(--mainColor);
       height: 85vh;
       width: 1200px;

@@ -1,17 +1,34 @@
 .section {
    background-color: var(--color-1);
    border: 1px solid var(--mainColor);
-   height: 280vh !important;
+   height: 200vh !important;
    width: 375px;
    box-shadow: 0px 0px 5px 0px var(--secondColor);
 }
 
+.selling {
+   margin-top: 50px !important;
+}
 .left {
    width: 700px;
    background-color: var(--mainColor);
    height: 70vh;
 }
 
+.image {
+   margin-left: 140px;
+   display: flex;
+   margin-top: 30px;
+}
+
+.image span {
+   font-weight: 500;
+   color: var(--color-3);
+}
+
+.image span:hover {
+   color: var(--color-4);
+}
 .right {
    margin-left: 20px;
    width: 700px;
@@ -51,12 +68,6 @@
    height: 40vh;
 }
 
-.image {
-   margin-left: 140px;
-   display: flex;
-   margin-top: 30px;
-}
-
 .left h5 {
    font-weight: 600;
    font-size: 20px;
@@ -89,8 +100,7 @@
 
 .section span:hover,
 .section span:focus {
-   box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11) !important;
-   border: 3px solid var(--secondColor) !important;
+   cursor: pointer;
 }
 
 .select {
@@ -210,15 +220,6 @@
    padding-top: 7%;
 }
 
-.textLink {
-   font-weight: 500;
-   color: var(--color-3);
-}
-
-.textLink:hover {
-   color: var(--color-4);
-}
-
 @media screen and (min-width: 411px) {
    .section {
       width: 710px;
@@ -228,14 +229,19 @@
 
 @media screen and (min-width: 720px) {
    .section {
-      height: 220vh !important;
+      height: 230vh !important;
       width: 1363px;
+      overflow: visible;
+      }
+      
+      .selling {
+         margin-top: 90px !important;
    }
 
    .left {
       background-color: var(--mainColor);
       width: 430px;
-      height: 220vh;
+      height: 215vh;
    }
 
    .right {

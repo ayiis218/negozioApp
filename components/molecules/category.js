@@ -37,10 +37,10 @@ const Category = ({ deviceType }) => {
          <div className="col-12 col-lg-12">
             <div className="font-sans leading-normal tracking-normal text-gray-100">
                <div className="col-3 col-lg-3">
-                  <h1 className="mt-5">Category</h1>
-                  <h6 className="text-secondary">
+                  <h3 className="mt-5 ms-3">Category</h3>
+                  <p className="text-secondary ms-3">
                      What are you currently looking for?
-                  </h6>
+                  </p>
                </div>
                <div className="col-12 col-lg-12">
                   <Carousel
