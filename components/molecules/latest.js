@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 
 import { BsFillStarFill } from 'react-icons/bs';
 
-import cardImage from '../../public/img/images.svg';
+import cardImage from '../../public/img/Images.svg';
 import style from './style/popular.module.css';
 
 const Popular = () => {

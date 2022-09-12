@@ -5,8 +5,10 @@ import Button from '../../components/atoms/Button';
 import styles from '../../styles/bag.module.css';
 
 import Default from '../../public/img/bag.png';
+import { useRouter } from 'next/router';
 
 function MyBag() {
+   const router = useRouter();
    const [loading, setLoading] = useState(false);
    return (
       <div className={styles.section}>
@@ -40,7 +42,10 @@ function MyBag() {
                                  </div>
                               </div>
                            </div>
-                           <div className={styles.bag}>
+                           <div
+                              className={styles.bag}
+                              onClick={() => router.push('/checkout')}
+                           >
                               <div className="row m-0">
                                  <div className="col-1 col-lg-1 d-flex justify-content-end">
                                     <div className="mt-4">

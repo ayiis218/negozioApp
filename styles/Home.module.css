@@ -17,6 +17,7 @@
   margin-left: 130px;
   margin-right: 130px;
 }
+
 @media screen and (min-width: 411px) {
   .section {
     width: 710px;

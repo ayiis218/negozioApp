@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 import { BsFillStarFill } from 'react-icons/bs';
-import Default from '../../public/img/images.svg';
+import Default from '../../public/img/Images.svg';
 
 import style from './style/popular.module.css';
 
