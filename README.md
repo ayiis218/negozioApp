@@ -19,7 +19,7 @@ This app was built with some technologies below:
 - [React JS](https://reactjs.com/)
 - [React-icons](https://react-icons.github.io/react-icons/)
 - [Boostrap](https://getbootstrap.com/)
-- [Swiper](https://swiperjs.com/react)
+- [Carousel](https://www.npmjs.com/package/react-multi-carousel)
 
 ## Installation
 
