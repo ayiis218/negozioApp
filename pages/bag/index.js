@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Button from '../../components/atoms/Button';
 import styles from '../../styles/bag.module.css';
 
+import Counter from '../../components/atoms/match';
 import Default from '../../public/img/bag.png';
 import { useRouter } from 'next/router';
 
@@ -42,17 +43,17 @@ function MyBag() {
                                  </div>
                               </div>
                            </div>
-                           <div
-                              className={styles.bag}
-                              onClick={() => router.push('/checkout')}
-                           >
+                           <div className={styles.bag}>
                               <div className="row m-0">
                                  <div className="col-1 col-lg-1 d-flex justify-content-end">
                                     <div className="mt-4">
                                        <input type="checkbox"></input>
                                     </div>
                                  </div>
-                                 <div className="col-6 col-lg-6 d-flex justify-content-start align-content-middle">
+                                 <div
+                                    className="col-6 col-lg-6 d-flex justify-content-start align-content-middle"
+                                    onClick={() => router.push('/checkout')}
+                                 >
                                     <div className={styles.image}>
                                        <Image
                                           src={Default}
@@ -69,7 +70,7 @@ function MyBag() {
                                     {/* <label className="mt-4">Zalora Cloth</label> */}
                                  </div>
                                  <div className="col-3 col-lg-3 d-flex justify-content-start">
-                                    <h6 className="mt-4">1 - +</h6>
+                                    <Counter min={1} max={25} />
                                  </div>
                                  <div className="col-2 col-lg-2 d-flex justify-content-end">
                                     <h6 className="me-2 mt-4">$ 2,00</h6>
@@ -83,7 +84,10 @@ function MyBag() {
                                        <input type="checkbox"></input>
                                     </div>
                                  </div>
-                                 <div className="col-6 col-lg-6 d-flex justify-content-start align-content-middle">
+                                 <div
+                                    className="col-6 col-lg-6 d-flex justify-content-start align-content-middle"
+                                    onClick={() => router.push('/checkout')}
+                                 >
                                     <div className={styles.image}>
                                        <Image
                                           src={Default}
@@ -100,7 +104,7 @@ function MyBag() {
                                     {/* <label className="mt-4">Zalora Cloth</label> */}
                                  </div>
                                  <div className="col-3 col-lg-3 d-flex justify-content-start">
-                                    <h6 className="mt-4">1 - +</h6>
+                                    <Counter min={1} max={25} />
                                  </div>
                                  <div className="col-2 col-lg-2 d-flex justify-content-end">
                                     <h6 className="me-2 mt-4">$ 20,0</h6>

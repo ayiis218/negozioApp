@@ -4,30 +4,30 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 import { BsFillStarFill } from 'react-icons/bs';
+import Default from '../../public/img/Images.svg';
 
-import cardImage from '../../public/img/Images.svg';
 import style from './style/popular.module.css';
 
-const Popular = () => {
+const Latest = () => {
    const router = useRouter();
    return (
       <div className={style.section}>
-         <div className="titleContent">
-            <h3>New</h3>
-            <p className="text-secondary">You’ve never seen it before!</p>
-         </div>
+         <h3>New</h3>
+         <p className="text-secondary">You’ve never seen it before!</p>
+
          <div className={style.content}>
-            {[...new Array(15)].map(() => (
+            {[...new Array(15)].map((index) => (
                <>
                   <div
+                     key={index}
                      className={style.card}
                      onClick={() => router.push('/detail')}
                   >
                      <Image
-                        src={cardImage}
+                        src={Default}
                         alt="cardImage"
-                        width={'100%'}
-                        height={'100%'}
+                        width={100}
+                        height={100}
                      />
                      <div className={style.desc}>
                         <h6>Men's formal suit - Black & White</h6>
@@ -50,4 +50,4 @@ const Popular = () => {
    );
 };
 
-export default Popular;
+export default Latest;

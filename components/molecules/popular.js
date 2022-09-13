@@ -25,14 +25,12 @@ const Popular = () => {
                      className={style.card}
                      onClick={() => router.push('/detail')}
                   >
-                     <div className="cardImage">
-                        <Image
-                           src={Default}
-                           alt="cardImage"
-                           width={'100%'}
-                           height={'100%'}
-                        />
-                     </div>
+                     <Image
+                        src={Default}
+                        alt="cardImage"
+                        width={'100%'}
+                        height={'100%'}
+                     />
                      <div className={style.desc}>
                         <h6>Men's formal suit - Black & White</h6>
                         <span>$ 40.0</span>
