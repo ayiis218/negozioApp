@@ -57,12 +57,12 @@ npm install
 </tr>
 <tr>
 <td><h4 style="margin-buttom:8px">Home</h4></td>
-<td><h4 style="margin-buttom:8px">popular</h4></td>
+<td><h4 style="margin-buttom:8px">Detail</h4></td>
 
 </tr>
 <tr>
 <td><image src="https://i.postimg.cc/K8D8QSqQ/profileblja.png" alt="" width=500></td>
-<td></td>
+<td><image src="https://i.postimg.cc/QtRwMKff/detailblja.png" alt="" width=500></td>
 </tr>
 </tr>
 <tr>
@@ -79,7 +79,7 @@ npm install
 
 </tr>
 <tr>
-<td></td>
+<td><image src="https://i.postimg.cc/zGVCx2zR/lnding-bljs.png" alt="" width=500></td>
 <td><image src="https://i.postimg.cc/0QpWKn26/page-inlogin.png" alt="" width=500></td>
 </tr>
 </table>
