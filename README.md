@@ -62,12 +62,12 @@ npm install
 </tr>
 <tr>
 <td><image src="https://i.postimg.cc/K8D8QSqQ/profileblja.png" alt="" width=500></td>
-<td><image src="https://i.postimg.cc/s2PD6FTw/lgnblja.png" alt="" width=500/></td>
+<td></td>
 </tr>
 </tr>
 <tr>
 <td><h4 style="margin-buttom:8px">My Bag</h4></td>
-<td><h4 style="margin-buttom:8px">\Checkout</h4></td>
+<td><h4 style="margin-buttom:8px">Checkout</h4></td>
 </tr>
 <tr>
 <td><image src="https://i.postimg.cc/RVnmp5FK/bag.png" alt="" width=500></td>
