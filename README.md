@@ -52,36 +52,35 @@ npm install
 <td><h4 style="margin-buttom:8px">Login</h4></td>
 </tr>
 <tr>
-<td></td>
-<td></td>
+<td><image src="https://i.postimg.cc/y8QTD5mp/registerblja.png" alt="" width=500></td>
+<td><image src="https://i.postimg.cc/s2PD6FTw/lgnblja.png" alt="" width=500/></td>
 </tr>
 <tr>
 <td><h4 style="margin-buttom:8px">Home</h4></td>
 <td><h4 style="margin-buttom:8px">popular</h4></td>
-<td><h4 style="margin-buttom:8px">Search</h4></td>
-<td><h4 style="margin-buttom:8px">Detail Recipe</h4></td>
+
+</tr>
+<tr>
+<td><image src="https://i.postimg.cc/K8D8QSqQ/profileblja.png" alt="" width=500></td>
+<td><image src="https://i.postimg.cc/s2PD6FTw/lgnblja.png" alt="" width=500/></td>
+</tr>
+</tr>
+<tr>
+<td><h4 style="margin-buttom:8px">My Bag</h4></td>
+<td><h4 style="margin-buttom:8px">\Checkout</h4></td>
+</tr>
+<tr>
+<td><image src="https://i.postimg.cc/RVnmp5FK/bag.png" alt="" width=500></td>
+<td><image src="https://i.postimg.cc/D09930Zs/checkout.png" alt="" width=500/></td>
+</tr>
+<tr>
+<td><h4 style="margin-buttom:8px">Landing</h4></td>
+<td><h4 style="margin-buttom:8px">Home</h4></td>
+
 </tr>
 <tr>
 <td></td>
-<td></td>
-</tr>
-<tr>
-<td><h4 style="margin-buttom:8px">Profile</h4></td>
-<td colspan="3"><h4 style="margin-buttom:8px">Edit Profile</h4></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><h4 style="margin-buttom:8px">My Recipe</h4></td>
-<td><h4 style="margin-buttom:8px">Create Recipe</h4></td>
-<td><h4 style="margin-buttom:8px">Edite Recipe</h4></td>
-<td><h4 style="margin-buttom:8px">Comment Recipe</h4></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
+<td><image src="https://i.postimg.cc/0QpWKn26/page-inlogin.png" alt="" width=500></td>
 </tr>
 </table>
 
