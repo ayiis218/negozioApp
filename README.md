@@ -35,7 +35,7 @@ cd negozioApp
 
 - Install Module
 ```
-npm install
+yarn install
 ```
 
 ## ENV Example
